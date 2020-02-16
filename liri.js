@@ -6,3 +6,8 @@ var fs = require('fs');
 
 var spotify = new Spotify(keys.spotify);
 var omdbKey = keys.omdb.api_key;
+
+const inputOne = process.argv[2];
+const inputTwo = process.argv[3];
+
+console.log(inputOne, inputTwo);
