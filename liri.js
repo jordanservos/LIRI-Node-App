@@ -41,6 +41,9 @@ switch (inputChoice) {
     case "movie-this":
         omdbSearch();
         break;
+    case "do-what-it-says":
+        doThis();
+        break;
 
     default:
         console.log("Try searching again");
@@ -126,4 +129,21 @@ function omdbSearch() {
 
         });
 
+};
+
+
+function doThis() {
+    fs.readFile("random.txt", "utf8", function(err, data) {
+
+        if (err) {
+            logThis(err);
+        }
+        var fileArray = data.split(",");
+        // console.log(fileArray[1]);
+        inputTwo = fileArray[1];
+        // console.log(inputTwo);
+        searchSpotify(inputTwo);
+
+
+    })
 };
