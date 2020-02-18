@@ -9,6 +9,8 @@ LIRI uses `.gitignore`which stores API keys locally and keeps them safe through 
 ## How LIRI Works
 
 LIRI will respond to any of the following commands:
+![commands]
+(https://github.com/jordanservos/LIRI-Node-App/blob/master/Screenshots/commands.png)
 
 * **node liri.js concert-this <artist/band name here>** - This will search the Bands in Town Artist Events AP:
 * **node liri.js spotify-this-song <song name here>** - This will show the information about the song using the Spotify API:
