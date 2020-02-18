@@ -6,6 +6,15 @@ For this assignment I made LIRI! LIRI is like iPhone's SIRI. However, while SIRI
 
 LIRI uses `.gitignore`which stores API keys locally and keeps them safe through abstraction by `.env`. Users can utilize this app y simply using their own API keys. 
 
+## How LIRI Works
+
+LIRI will respond to any of the following commands:
+
+* **node liri.js concert-this <artist/band name here>** - This will search the Bands in Town Artist Events AP:
+* **node liri.js spotify-this-song <song name here>** - This will show the information about the song using the Spotify API:
+* **node liri.js movie-this <movie name here>** - This will output the following movie information to your terminal/bash window:
+* **node liri.js do-what-it-says** - Using the fs Node package, LIRI will take the text inside of a random.txt file and then use it to call the Spotify command.
+
 ## Technologies Used 
 
 * [Node.js] (https://nodejs.org/en/)
@@ -17,6 +26,9 @@ LIRI uses `.gitignore`which stores API keys locally and keeps them safe through 
 * [OMDB-API] (http://www.omdbapi.com)
 * [Bandsintown-API] (http://www.artists.bandsintown.com/bandsintown-api)
 * [Node-Spotify-API] (https://www.npmjs.com/package/node-spotify-api)
+
+## Developer - Jordan Servos
+
 
 
 
