@@ -46,7 +46,7 @@ switch (inputChoice) {
         break;
 
     default:
-        console.log("Try searching again");
+        console.log("Please use one of these valid search terms - {concert-this}, {spotify-this-song}, {movie-this} or {do-what-it-says}");
 }
 
 // create spotify search function
