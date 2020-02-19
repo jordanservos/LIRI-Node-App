@@ -6,6 +6,8 @@ For this assignment I made LIRI! LIRI is like iPhone's SIRI. However, while SIRI
 
 LIRI uses `.gitignore`which stores API keys locally and keeps them safe through abstraction by `.env`. Users can utilize this app y simply using their own API keys. 
 
+Fork the app here - https://github.com/jordanservos/LIRI-Node-App
+
 ## How LIRI Works
 
 LIRI will respond to any of the following commands:
