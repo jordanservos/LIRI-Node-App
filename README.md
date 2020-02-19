@@ -16,7 +16,9 @@ LIRI will respond to any of the following commands:
 * **node liri.js spotify-this-song <song name here>** - This will show the information about the song using the Spotify API:
 ![spotify](https://github.com/jordanservos/LIRI-Node-App/blob/master/Screenshots/spotify.png)
 * **node liri.js movie-this <movie name here>** - This will output the following movie information to your terminal/bash window:
+![movie](https://github.com/jordanservos/LIRI-Node-App/blob/master/Screenshots/movie.png)
 * **node liri.js do-what-it-says** - Using the fs Node package, LIRI will take the text inside of a random.txt file and then use it to call the Spotify command.
+![do this](https://github.com/jordanservos/LIRI-Node-App/blob/master/Screenshots/do%20what%20it%20says.png)
 
 ## Technologies Used 
 
